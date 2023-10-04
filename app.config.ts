@@ -1,6 +1,6 @@
 export default defineAppConfig({
   alpine: {
-    title: 'Alpine',
+    title: 'SREDevOps.org',
     description: 'The minimalist blog theme',
     image: {
       src: '/social-card-preview.png',
@@ -26,13 +26,17 @@ export default defineAppConfig({
       message: 'Follow me on' // string that will be displayed in the footer (leave empty or delete to disable)
     },
     socials: {
-      twitter: 'nuxtlabs',
-      instagram: 'atinuxt',
+      twitter: 'sredevopsorg',
+      instagram: 'sredevopsorg',
+
       linkedin: {
         icon: 'uil:linkedin',
         label: 'LinkedIn',
         href: 'https://www.linkedin.com/company/nuxtlabs'
-      }
+      },
+
+      github: 'https://github.com/sredevopsdev',
+      youtube: '@sredevopsorg'
     },
     form: {
       successMessage: 'Message sent. Thank you!'
